@@ -8,12 +8,6 @@ export default {
         title: { control: 'text' },
         description: { control: 'text' },
         imageUrl: { control: 'text' },
-		color: {
-			control: {
-				type: 'select',
-				options: ['default', 'primary', 'secondary'],
-			},
-		},
 		variant: {
 			control: {
 				type: 'select',
